@@ -16,7 +16,7 @@ int main()
     cout << "Unsigned short ranges up to " << USHRT_MAX;
     cout << endl << endl;
 
-    cout << "Int ranges from " << INT_MAX;
+    cout << "Int ranges from " << INT_MIN;
     cout << " up to " << INT_MAX;
     cout << endl << endl;
 
