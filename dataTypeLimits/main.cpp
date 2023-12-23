@@ -1,5 +1,6 @@
-#include <iostream>
+#include <cfloat>
 #include <climits>
+#include <iostream>
 
 using namespace std;
 
@@ -35,7 +36,14 @@ int main()
     cout << endl << endl;
 
     cout << "Unsigned long long int ranges up to " << ULLONG_MAX;
-    cout << endl;
+    cout << endl << endl;
+
+    cout << "Float ranges from " << FLT_MIN;
+    cout << " up to " << FLT_MAX;
+    cout << endl << endl;
+
+    cout << "Double ranges from " << DBL_MIN;
+    cout << " up to " << DBL_MAX << endl;
 
     return 0;
 }
